@@ -35,9 +35,7 @@
       "hp": 2,
       "special_forces": true,
       "training_time": 180,
-      "type": [
-        "armor"
-      ],
+      "type": ["armor"],
       "weight": 1,
       "name": "Amphibious Tank Battalion",
       "equipment": {
@@ -4872,57 +4870,6 @@
       "archetype": "transport_plane_equipment",
       "maximum_speed": 300
     },
-    "ship_hull_carrier_1": {
-      "anti_air_attack": 0,
-      "armor_value": 0,
-      "build_cost_ic": 2450,
-      "can_be_produced": {
-        "NOT": {
-          "has_idea": "BUL_army_restrictions"
-        }
-      },
-      "default_modules": {
-        "fixed_ship_engine_slot": "carrier_ship_engine_2"
-      },
-      "fuel_consumption": 87,
-      "hg_armor_piercing": 0,
-      "hg_attack": 0,
-      "lg_armor_piercing": 0,
-      "lg_attack": 0,
-      "manpower": 4500,
-      "max_strength": 250,
-      "module_count_limit": {
-        "category": "ship_radar",
-        "count": {
-          "<": 2
-        }
-      },
-      "module_slots": "inherit",
-      "naval_range": 3000,
-      "naval_speed": 26,
-      "offensive_weapons": false,
-      "reliability": 0.7,
-      "resources": {
-        "chromium": 1,
-        "steel": 3
-      },
-      "sub_attack": 0,
-      "sub_detection": 5,
-      "surface_detection": 26,
-      "surface_visibility": 30,
-      "torpedo_attack": 0,
-      "type": "carrier",
-      "upgrades": [
-        "ship_deckspace_upgrade",
-        "carrier_armor_upgrade",
-        "ship_engine_upgrade",
-        "ship_reliability_upgrade"
-      ],
-      "year": 1936,
-      "name": "1936 Carrier Hull",
-      "archetype": "ship_hull_carrier",
-      "visual_tech_level_addition": 2
-    },
     "ship_hull_carrier_2": {
       "anti_air_attack": 0,
       "armor_value": 0,
@@ -5020,12 +4967,6 @@
       "lg_attack": 0,
       "manpower": 5500,
       "max_strength": 350,
-      "module_count_limit": {
-        "category": "ship_radar",
-        "count": {
-          "<": 2
-        }
-      },
       "module_slots": {
         "fixed_ship_anti_air_slot": "inherit",
         "fixed_ship_deck_slot_1": "inherit",
@@ -5062,22 +5003,12 @@
       "naval_speed": 26,
       "offensive_weapons": false,
       "reliability": 0.8,
-      "resources": {
-        "chromium": 2,
-        "steel": 4
-      },
       "sub_attack": 0,
       "sub_detection": 5,
       "surface_detection": 26,
       "surface_visibility": 30,
       "torpedo_attack": 0,
       "type": "carrier",
-      "upgrades": [
-        "ship_deckspace_upgrade",
-        "carrier_armor_upgrade",
-        "ship_engine_upgrade",
-        "ship_reliability_upgrade"
-      ],
       "year": 1944,
       "name": "1944 Carrier Hull",
       "archetype": "ship_hull_carrier",
@@ -5109,119 +5040,6 @@
           "<": 2
         }
       },
-      "module_slots": {
-        "fixed_ship_anti_air_slot": "inherit",
-        "fixed_ship_deck_slot_1": "inherit",
-        "fixed_ship_deck_slot_2": "inherit",
-        "fixed_ship_engine_slot": {
-          "allowed_module_categories": [
-            "heavy_ship_engine",
-            "carrier_ship_engine"
-          ],
-          "required": true
-        },
-        "fixed_ship_radar_slot": "inherit",
-        "fixed_ship_secondaries_slot": "inherit",
-        "mid_1_custom_slot": {
-          "allowed_module_categories": [
-            "ship_secondaries",
-            "ship_deck_space",
-            "ship_carrier_armor"
-          ],
-          "required": false
-        }
-      },
-      "naval_range": 4000,
-      "naval_speed": 23,
-      "offensive_weapons": false,
-      "reliability": 0.65,
-      "resources": {
-        "chromium": 1,
-        "steel": 4
-      },
-      "sub_attack": 0,
-      "sub_detection": 5,
-      "surface_detection": 26,
-      "surface_visibility": 30,
-      "torpedo_attack": 0,
-      "type": "carrier",
-      "upgrades": [
-        "ship_deckspace_upgrade",
-        "carrier_armor_upgrade",
-        "ship_engine_upgrade",
-        "ship_reliability_upgrade"
-      ],
-      "year": 1922,
-      "name": "Converted Battleship Hull",
-      "archetype": "ship_hull_carrier"
-    },
-    "ship_hull_carrier_conversion_ca": {
-      "anti_air_attack": 0,
-      "armor_value": 0,
-      "build_cost_ic": 2700,
-      "can_be_produced": {
-        "NOT": {
-          "has_idea": "BUL_army_restrictions"
-        }
-      },
-      "default_modules": {
-        "fixed_ship_anti_air_slot": "empty",
-        "fixed_ship_deck_slot_1": "empty",
-        "fixed_ship_deck_slot_2": "empty",
-        "fixed_ship_engine_slot": "cruiser_ship_engine_1",
-        "fixed_ship_radar_slot": "empty",
-        "fixed_ship_secondaries_slot": "empty"
-      },
-      "fuel_consumption": 87,
-      "hg_armor_piercing": 0,
-      "hg_attack": 0,
-      "lg_armor_piercing": 0,
-      "lg_attack": 0,
-      "manpower": 1000,
-      "max_strength": 125,
-      "module_count_limit": {
-        "category": "ship_radar",
-        "count": {
-          "<": 2
-        }
-      },
-      "module_slots": {
-        "fixed_ship_anti_air_slot": "inherit",
-        "fixed_ship_deck_slot_1": "inherit",
-        "fixed_ship_deck_slot_2": "inherit",
-        "fixed_ship_engine_slot": {
-          "allowed_module_categories": [
-            "cruiser_ship_engine",
-            "carrier_ship_engine"
-          ],
-          "required": true
-        },
-        "fixed_ship_radar_slot": "inherit",
-        "fixed_ship_secondaries_slot": "inherit"
-      },
-      "naval_range": 4000,
-      "naval_speed": 20,
-      "offensive_weapons": false,
-      "reliability": 0.65,
-      "resources": {
-        "steel": 3
-      },
-      "sub_attack": 0,
-      "sub_detection": 5,
-      "surface_detection": 26,
-      "surface_visibility": 30,
-      "torpedo_attack": 0,
-      "type": "carrier",
-      "upgrades": [
-        "ship_deckspace_upgrade",
-        "carrier_armor_upgrade",
-        "ship_engine_upgrade",
-        "ship_reliability_upgrade"
-      ],
-      "year": 1922,
-      "name": "Converted Cruiser Hull",
-      "archetype": "ship_hull_carrier"
-    },
     "carrier_1": {
       "anti_air_attack": 0,
       "armor_value": 7,
