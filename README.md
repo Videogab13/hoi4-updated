@@ -1,6 +1,6 @@
 ## Hearts of Iron IV - Division Designer
 
-You can [use it in your browser](https://Videogab13.github.io/hoi4-updated/).
+You can [use it in your browser](https://Videogab13.github.io/hoi4-updated/src/App.scss).
 
 To run it locally:
 
